@@ -1,8 +1,10 @@
+
 body{
     font-family: Arial, sans-serif;
-    padding: 20px;
+    padding: 0;
     margin: 0;
-    background: #f4f4f4;
+    background: #ffffff;
+    
 }
 
 h1{
@@ -11,12 +13,16 @@ h1{
 }
 
 .container{
-    max-width: 800px;
+    flex: 1;
+    max-width: 500px;
+    min-height: 350px;
     margin: auto;
-    background: #fff;
+    background: #ffffff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px #ccc;
+    display: flex;
+    flex-direction: column;
 }
 
 button{
@@ -34,7 +40,7 @@ button{
 
 table{
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: collapse;;
 }
 
 th, td{
@@ -44,14 +50,14 @@ th, td{
 }
 
 .footer {
-  background-color: #f0f0f0;
-  padding: 16px;
+  background-color: #3f3f3f;
+  padding: 5px;
   text-align: center;
-  font-size: 14px;
-  color: #555;
-  margin-top: 40px;
-  border-top: 1px solid #ddd;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 80px;
 }
+
 
 @media (max-width: 600px) {
   h1 { font-size: 22px; }
