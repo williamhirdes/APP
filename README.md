@@ -2,6 +2,10 @@
 
 Protótipo funcional de um sistema de marcação de ponto eletrônico, desenvolvido como parte de um Projeto Integrado no curso de Sistemas para Internet.
 
+🔗 Link para o projeto online
+Veja o sistema funcionando diretamente no GitHub Pages:
+👉 https://williamhirdes.github.io/APP/
+
 📌 Funcionalidades
 Registro de ponto com a data e hora atual
 
